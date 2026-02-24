@@ -1,1 +1,6 @@
-# 1000 pices to my a triangle  how manyy pece to make it 
+# Calculate the height h of a triangle given the number of pieces
+
+pieces = 500500
+h = int((1 + 8 * pieces)**0.5 - 1) // 2
+print(h)
+
