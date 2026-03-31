@@ -1,3 +1,10 @@
+#Exercice 2 : Palindrome
+#Écrivez un programme qui demande à l'utilisateur de saisir une chaîne de caractères, puis qui
+#identifie et affiche les mots qui sont des palindromes
+#(c'est-à-dire des mots qui se lisent de la même manière de gauche à droite et de droite à gauche).
+#Le programme doit également afficher les mots inversés.
+
+
 ch = "binjour radar level python"
 
 print(f"\nla chaine de caractere originale est : {ch} \n")
