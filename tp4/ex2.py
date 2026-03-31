@@ -18,9 +18,11 @@ inverse = []
 
 
 for i in range(len(list)):
-    inverse.append(list[i][::-1])
+    
     if list[i] == list[i][::-1] :
-        palindromes.append(list[i])
+        palindromes.append(list[i]) 
+    else:
+        inverse.append(list[i][::-1])
 
 
 print (f"les chaines inversées sont : {inverse} \n")
